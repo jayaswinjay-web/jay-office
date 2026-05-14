@@ -1,18 +1,24 @@
 <div align="center">
-  <h1>📁 JAY OFFICE</h1>
-  <p><em>Monorepo office productivity suite for modern teams</em></p>
-
-  <p>
-    <img src="https://img.shields.io/badge/monorepo-Turborepo-EF4444?style=flat-square&logo=turborepo" alt="Turborepo">
-    <img src="https://img.shields.io/badge/language-TypeScript-3178C6?style=flat-square&logo=typescript" alt="TypeScript">
-    <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License">
-  </p>
+  <img src="https://raw.githubusercontent.com/jayaswinjay-web/shared-assets/main/screenshots/jay-office-demo.svg" width="100%" alt="JAY OFFICE Screenshot">
 </div>
 
-![License](https://img.shields.io/github/license/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)
-![Last Commit](https://img.shields.io/github/last-commit/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)
-![CI](https://github.com/jayaswinjay-web/jay-office/actions/workflows/ci.yml/badge.svg)
-![GitHub Repo](https://img.shields.io/github/repo-size/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)
+<br>
+
+<div align="center">
+
+[![License](https://img.shields.io/github/license/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)](https://github.com/jayaswinjay-web/jay-office/commits)
+[![CI](https://github.com/jayaswinjay-web/jay-office/actions/workflows/ci.yml/badge.svg)](https://github.com/jayaswinjay-web/jay-office/actions)
+[![Repo Size](https://img.shields.io/github/repo-size/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)](https://github.com/jayaswinjay-web/jay-office)
+[![Stars](https://img.shields.io/github/stars/jayaswinjay-web/jay-office?style=social)](https://github.com/jayaswinjay-web/jay-office)
+
+---
+
+### ⭐ Support This Project — [Star on GitHub](https://github.com/jayaswinjay-web/jay-office) ⭐
+
+---
+
+</div>
 
 ## Overview
 
@@ -93,6 +99,15 @@ See [ROADMAP.md](ROADMAP.md) for the detailed product roadmap and planned featur
 ## About JAY TECH SOLUTIONS
 
 JAY OFFICE is part of the [JAY TECH SOLUTIONS](https://jaytechsoln.in) product suite — a collection of business software products serving 50,000+ users across India.
+
+## Show Your Support
+
+- ⭐ **Star this repo** — helps others discover it
+- 🐛 **Report issues** — I respond within 24 hours
+- 📬 **Share feedback** — contact@jaytechsoln.in
+- ☕ **Buy me a coffee** — [Sponsor](https://github.com/sponsors/jayaswinjay-web)
+
+Made with ❤️ by [Aswin Jay](https://github.com/Aswinajay) — part of [JAY TECH SOLUTIONS](https://jaytechsoln.in)
 
 ## License
 

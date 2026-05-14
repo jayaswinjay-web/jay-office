@@ -1,0 +1,45 @@
+.radio {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.input {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--color-border-default);
+  border-radius: 50%;
+  background: var(--color-bg-surface);
+  appearance: none;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input:checked {
+  border-color: var(--color-brand);
+}
+
+.input:checked::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-brand);
+}
+
+.input:focus {
+  outline: 2px solid var(--color-focus-ring);
+}
+
+.label {
+  user-select: none;
+}

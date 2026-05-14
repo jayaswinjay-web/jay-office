@@ -1,0 +1,185 @@
+.container {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+}
+
+.subject {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+}
+
+.actions {
+  display: flex;
+  gap: 4px;
+}
+
+.messageInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 24px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-accent, #3b82f6);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+}
+
+.senderRow {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.senderName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+}
+
+.senderEmail {
+  font-size: 13px;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.to {
+  font-size: 13px;
+  color: var(--color-text-secondary, #4b5563);
+}
+
+.time {
+  font-size: 13px;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.attachments {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+  background: var(--color-bg-secondary, #f9fafb);
+}
+
+.attachmentLabel {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-secondary, #4b5563);
+}
+
+.attachment {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px;
+  border: 1px solid var(--color-border-default, #e5e7eb);
+  border-radius: 6px;
+  background: var(--color-bg-surface, #ffffff);
+  text-decoration: none;
+}
+
+.attachmentName {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-accent, #3b82f6);
+}
+
+.attachmentSize {
+  font-size: 11px;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.body {
+  flex: 1;
+  padding: 24px;
+}
+
+.bodyContent {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-primary, #111827);
+}
+
+.thread {
+  border-top: 1px solid var(--color-border-default, #e5e7eb);
+}
+
+.threadToggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  background: var(--color-bg-secondary, #f9fafb);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary, #4b5563);
+}
+
+.threadMessage {
+  padding: 12px 24px;
+  border-top: 1px solid var(--color-border-default, #e5e7eb);
+}
+
+.threadMessageInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.threadSender {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+}
+
+.threadTime {
+  font-size: 12px;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.threadMessageBody {
+  font-size: 13px;
+  color: var(--color-text-secondary, #4b5563);
+  line-height: 1.5;
+}
+
+.replyActions {
+  display: flex;
+  padding: 16px 24px;
+  border-top: 1px solid var(--color-border-default, #e5e7eb);
+}

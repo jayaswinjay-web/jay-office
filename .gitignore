@@ -1,0 +1,14 @@
+node_modules/
+.next/
+dist/
+.turbo/
+.env
+.env.*
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+apps/**/node_modules/
+apps/**/.next/
+apps/**/dist/
+packages/**/node_modules/
+packages/**/dist/

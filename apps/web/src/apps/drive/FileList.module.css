@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+}
+
+.nameCell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.folderButton {
+  justify-content: flex-start;
+  padding: 0;
+  height: auto;
+  font-weight: 500;
+}
+
+.folderIcon {
+  width: 1rem;
+  height: 1rem;
+  color: #3b82f6;
+  margin-right: 0.5rem;
+}
+
+.fileIcon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--color-text-tertiary, #9ca3af);
+}
+
+.starButton {
+  width: 2rem;
+  height: 2rem;
+}
+
+.starIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.starIconFilled {
+  fill: #facc15;
+}
+
+.menuButton {
+  width: 2rem;
+  height: 2rem;
+}
+
+.destructiveItem {
+  color: var(--color-text-destructive, #ef4444);
+}
+
+.destructiveItem:hover {
+  background-color: var(--color-bg-destructive, #fef2f2);
+}

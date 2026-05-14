@@ -1,0 +1,12 @@
+{
+  "name": "@jay/desktop",
+  "version": "0.0.1",
+  "private": true,
+  "description": "JAY Office Desktop (Electron)",
+  "main": "main.js",
+  "scripts": {
+    "dev": "echo 'Phase 3 - skipped'",
+    "build": "echo 'Phase 3 - skipped'",
+    "test": "echo 'Phase 3 - skipped'"
+  }
+}

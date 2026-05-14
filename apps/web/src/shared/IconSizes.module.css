@@ -1,0 +1,19 @@
+.iconSm {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.iconMd {
+  width: 1rem;
+  height: 1rem;
+}
+
+.iconLg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.iconXl {
+  width: 3rem;
+  height: 3rem;
+}

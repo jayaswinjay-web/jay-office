@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.gridArea {
+  flex: 1;
+  overflow: hidden;
+}
+
+.chartPanel {
+  width: 20rem;
+  border-left: 1px solid var(--color-border-default);
+  overflow-y: auto;
+}

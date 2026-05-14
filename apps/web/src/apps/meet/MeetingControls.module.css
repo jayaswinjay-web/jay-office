@@ -1,0 +1,220 @@
+.controlsBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.controlsLeft {
+  display: flex;
+  gap: 8px;
+}
+
+.controlsCenter {
+  display: flex;
+  gap: 4px;
+}
+
+.controlsRight {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.controlGroup {
+  display: flex;
+  gap: 4px;
+}
+
+.controlBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  position: relative;
+}
+
+.controlBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.controlBtn.active {
+  background: rgba(59, 130, 246, 0.3);
+  color: #60a5fa;
+}
+
+.controlBtn.danger {
+  background: rgba(239, 68, 68, 0.2);
+  color: #f87171;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+  margin-bottom: 8px;
+}
+
+.controlBtn:hover .tooltip {
+  opacity: 1;
+}
+
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  padding: 4px;
+  border-radius: 8px;
+  background: #2d2d44;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  min-width: 140px;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.dropdownItem:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.reactionsDropdown {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 12px;
+  background: #2d2d44;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  gap: 4px;
+}
+
+.reactionBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.reactionBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.reactionEmoji {
+  font-size: 24px;
+}
+
+.reactionLabel {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.reactionFloat {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  animation: floatUp 2s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-120px) scale(1.5);
+  }
+}
+
+.viewBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.viewBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.viewBtn.viewActive {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.leaveBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ef4444;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.leaveBtn:hover {
+  background: #dc2626;
+}

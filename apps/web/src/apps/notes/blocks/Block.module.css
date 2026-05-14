@@ -1,0 +1,127 @@
+.blockWrapper {
+  position: relative;
+}
+
+.blockWrapper:hover .dragHandle {
+  opacity: 1;
+}
+
+.dragHandle {
+  position: absolute;
+  left: -2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: grab;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  padding: 0.25rem;
+}
+
+.dragIcon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--color-text-muted);
+}
+
+.blockContent {
+  width: 100%;
+  outline: none;
+  min-height: 1.5em;
+  padding: 0 0.5rem;
+}
+
+.heading1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.heading2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.heading3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.bulletList {
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.numberList {
+  padding-left: 1.5rem;
+  list-style: decimal;
+}
+
+.todoBlock {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.todoCheckbox {
+  margin-top: 0.25rem;
+}
+
+.todoContent {
+  flex: 1;
+  outline: none;
+}
+
+.toggleBlock {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+}
+
+.toggleContent {
+  display: inline-block;
+  margin-left: 0.5rem;
+  outline: none;
+}
+
+.quoteBlock {
+  border-left: 4px solid var(--color-border-default);
+  padding-left: 1rem;
+  font-style: italic;
+  outline: none;
+  padding: 0 0.5rem;
+}
+
+.calloutBlock {
+  background: var(--color-bg-subtle);
+  padding: 0.75rem;
+  border-radius: var(--radius-md);
+  outline: none;
+}
+
+.codeBlock {
+  font-family: 'Courier New', monospace;
+  background: var(--color-bg-subtle);
+  padding: 0.75rem;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  outline: none;
+}
+
+.dividerBlock {
+  border: none;
+  border-top: 1px solid var(--color-border-default);
+  margin: 0.5rem 0;
+}
+
+.imageBlock {
+  display: flex;
+  justify-content: center;
+  padding: 0 0.5rem;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: var(--radius-md);
+}

@@ -1,0 +1,198 @@
+.container {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  height: 100%;
+}
+
+.thStatus {
+  width: 8.75rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-secondary, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+  background: var(--color-bg-subtle, #f9fafb);
+}
+
+.thTitle {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-secondary, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+  background: var(--color-bg-subtle, #f9fafb);
+}
+
+.thPriority {
+  width: 6.25rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-secondary, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+  background: var(--color-bg-subtle, #f9fafb);
+}
+
+.thAssignee {
+  width: 8.75rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-secondary, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+  background: var(--color-bg-subtle, #f9fafb);
+}
+
+.thDue {
+  width: 8.75rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-secondary, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+  background: var(--color-bg-subtle, #f9fafb);
+}
+
+.thTags {
+  width: 10rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-secondary, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+  background: var(--color-bg-subtle, #f9fafb);
+}
+
+.groupHeader {
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+}
+
+.groupHeaderCell {
+  padding: 0;
+}
+
+.groupToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: var(--color-bg-subtle, #f9fafb);
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+.groupLabel {
+  font-weight: 500;
+}
+
+.groupCount {
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary, #9ca3af);
+  margin-left: 0.5rem;
+}
+
+.taskRow {
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.taskRow:hover {
+  background: var(--color-bg-subtle, #f9fafb);
+}
+
+.taskRowHidden {
+  display: none;
+}
+
+.td {
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+}
+
+.tdTitle {
+  font-weight: 500;
+}
+
+.priorityBadge {
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.assignee {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.unassigned {
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary, #9ca3af);
+}
+
+.dueDate {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.noDate {
+  color: var(--color-text-tertiary, #9ca3af);
+}
+
+.tagList {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 0.125rem 0.375rem;
+  background: var(--color-bg-subtle, #f9fafb);
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--color-text-secondary, #6b7280);
+}
+
+.moreTags {
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary, #9ca3af);
+}
+
+.statusSelect {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--color-border-default, #e5e7eb);
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  background: var(--color-bg-default, #ffffff);
+}

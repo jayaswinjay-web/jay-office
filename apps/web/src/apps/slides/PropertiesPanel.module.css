@@ -1,0 +1,121 @@
+.panel {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.emptyState {
+  padding: 32px 16px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.section {
+  padding: 12px;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+}
+
+.sectionLabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-text-muted, #9ca3af);
+  margin-bottom: 8px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.colorRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.colorInput {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--color-border-default, #e5e7eb);
+  border-radius: 6px;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+}
+
+.textInput {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 12px;
+  border: 1px solid var(--color-border-default, #e5e7eb);
+  border-radius: 6px;
+  background: var(--color-bg-surface, #ffffff);
+  color: var(--color-text-primary, #111827);
+}
+
+.numberInput {
+  width: 64px;
+  padding: 6px 8px;
+  font-size: 12px;
+  border: 1px solid var(--color-border-default, #e5e7eb);
+  border-radius: 6px;
+  background: var(--color-bg-surface, #ffffff);
+  color: var(--color-text-primary, #111827);
+}
+
+.rangeInput {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.rangeValue {
+  font-size: 11px;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.positionGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field label {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.smallInput {
+  padding: 4px 6px;
+  font-size: 12px;
+  border: 1px solid var(--color-border-default, #e5e7eb);
+  border-radius: 6px;
+  background: var(--color-bg-surface, #ffffff);
+  color: var(--color-text-primary, #111827);
+}
+
+.rotationRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.degreeSymbol {
+  font-size: 14px;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.arrangeRow {
+  display: flex;
+  gap: 4px;
+}
+
+.fullWidth {
+  width: 100%;
+}

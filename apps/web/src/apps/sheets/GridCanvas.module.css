@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  background: var(--color-bg-surface);
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.wrapper {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  bottom: var(--space-3);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+  padding: var(--space-1);
+  box-shadow: var(--shadow-sm);
+}
+
+.controlActive {
+  background: var(--color-bg-subtle);
+}
+
+.zoomLevel {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  min-width: 40px;
+  text-align: center;
+}

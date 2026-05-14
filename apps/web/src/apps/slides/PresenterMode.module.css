@@ -1,0 +1,160 @@
+.presenterContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.currentSlide {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.slideContent {
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nextSlidePreview {
+  position: absolute;
+  bottom: 80px;
+  right: 20px;
+  width: 200px;
+  height: 150px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.previewLabel {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 10px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.speakerNotes {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1a1a1a;
+  border-top: 1px solid #333;
+  transition: height 0.3s ease;
+  overflow: hidden;
+}
+
+.speakerNotesCollapsed {
+  height: 40px;
+}
+
+.speakerNotesExpanded {
+  height: 200px;
+}
+
+.notesHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.notesTitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.notesContent {
+  padding: 0 20px 20px;
+  overflow-y: auto;
+  height: calc(100% - 40px);
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-family: monospace;
+  color: #fff;
+}
+
+.slideCounter {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+.exitButton {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #333;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s;
+}
+
+.exitButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navHint {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navHintItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

@@ -1,0 +1,39 @@
+.root {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: var(--color-bg-surface);
+  z-index: 1;
+}
+
+.headerCell {
+  height: 36px;
+  padding: 0 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border-default);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.row {
+  height: 36px;
+}
+
+.row:nth-child(even) {
+  background: var(--color-bg-page);
+}
+
+.row:hover {
+  background: var(--color-bg-subtle);
+}
+
+.cell {
+  padding: 0 12px;
+  border-bottom: 1px solid var(--color-border-default);
+}

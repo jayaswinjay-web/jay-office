@@ -1,0 +1,102 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-4);
+  font-family: var(--font-family);
+}
+
+.header {
+  margin-bottom: var(--space-6);
+}
+
+.title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin: 0 0 var(--space-2) 0;
+}
+
+.subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.errorBanner {
+  border-radius: var(--radius-md);
+  background: var(--color-danger);
+  color: var(--color-fg-inverse);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--space-4);
+}
+
+.successBanner {
+  border-radius: var(--radius-md);
+  background: var(--color-success);
+  color: var(--color-fg-inverse);
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--font-size-base);
+  margin: var(--space-4) 0;
+}
+
+.qrWrapper {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-6);
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-lg);
+  margin: var(--space-4) 0;
+}
+
+.qrImage {
+  width: 200px;
+  height: 200px;
+}
+
+.secretSection {
+  margin: var(--space-4) 0;
+}
+
+.secretLabel {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-1) 0;
+}
+
+.secretCode {
+  display: block;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-bg-subtle);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+  font-family: monospace;
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  word-break: break-all;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.label {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+}
+
+.submitButton {
+  width: 100%;
+  height: var(--btn-height-default);
+}

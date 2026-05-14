@@ -1,0 +1,84 @@
+.board {
+  display: flex;
+  gap: 16px;
+  height: 100%;
+  overflow-x: auto;
+  padding-bottom: 16px;
+}
+
+.column {
+  flex: 0 0 280px;
+  background: var(--color-bg-surface, #ffffff);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  border: 2px solid transparent;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+
+.columnDropTarget {
+  border-color: var(--color-accent, #3b82f6);
+  background: var(--color-accent-light, #eff6ff);
+}
+
+.columnHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border-default, #e5e7eb);
+}
+
+.columnTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+}
+
+.columnCount {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 8px;
+  border-radius: 12px;
+  background: var(--color-bg-secondary, #f3f4f6);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted, #9ca3af);
+}
+
+.columnBody {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.addColumnButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px;
+  border: 1px dashed var(--color-border-default, #e5e7eb);
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  color: var(--color-text-muted, #9ca3af);
+  font-size: 13px;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.addColumnButton:hover {
+  background: var(--color-bg-hover, #f3f4f6);
+  border-color: var(--color-border-hover, #d1d5db);
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@jay/api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "db:seed": "tsx src/seed.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1043.0",
+    "@aws-sdk/s3-request-presigner": "^3.1043.0",
+    "@fastify/cors": "^10.0.0",
+    "@fastify/helmet": "^12.0.0",
+    "@fastify/jwt": "^9.0.0",
+    "@fastify/multipart": "^9.0.0",
+    "@fastify/rate-limit": "^10.0.0",
+    "@jay/schema": "workspace:*",
+    "@jay/types": "workspace:*",
+    "@jay/utils": "workspace:*",
+    "bcrypt": "^5.1.0",
+    "drizzle-orm": "^0.36.0",
+    "fastify": "^5.1.0",
+    "fastify-plugin": "^5.1.0",
+    "ioredis": "^5.4.0",
+    "postgres": "^3.4.0",
+    "qrcode": "^1.5.4",
+    "speakeasy": "^2.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.0.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/speakeasy": "^2.0.10",
+    "drizzle-kit": "^0.28.0",
+    "eslint": "^9.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

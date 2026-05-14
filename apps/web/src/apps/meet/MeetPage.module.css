@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #1a1a2e;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.meetingInfoBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 10;
+}
+
+.meetingInfoLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.meetingInfoRight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.meetingTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.meetingDivider {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.participantCount {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.connectionQuality {
+  display: flex;
+  align-items: center;
+}
+
+.qualityGood {
+  color: #4ade80;
+}
+
+.qualityBad {
+  color: #f87171;
+}
+
+.mainArea {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.videoArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 8px;
+  height: 100%;
+  overflow: auto;
+  align-content: center;
+}
+
+.spotlight {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spotlight > * {
+  width: 100%;
+  max-width: 900px;
+  max-height: 100%;
+}
+
+.filmstrip {
+  display: flex;
+  gap: 8px;
+  padding: 8px 0;
+  overflow-x: auto;
+  height: 120px;
+}
+
+.filmstrip > * {
+  flex-shrink: 0;
+  width: 160px;
+  height: 100%;
+}

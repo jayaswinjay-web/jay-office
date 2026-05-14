@@ -9,6 +9,11 @@
   </p>
 </div>
 
+![License](https://img.shields.io/github/license/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)
+![Last Commit](https://img.shields.io/github/last-commit/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)
+![CI](https://github.com/jayaswinjay-web/jay-office/actions/workflows/ci.yml/badge.svg)
+![GitHub Repo](https://img.shields.io/github/repo-size/jayaswinjay-web/jay-office?style=flat&color=1a8a7a)
+
 ## Overview
 
 JAY OFFICE is a complete monorepo workspace integrating multiple business tools — document management, communication, scheduling, and collaboration features into one seamless experience. Built with Turborepo for efficient monorepo management.
